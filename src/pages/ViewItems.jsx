@@ -48,7 +48,7 @@ const ViewItems = () => {
   };
 
   const viewItem = (id)=>{
-    navigate(`/view-item/${id}`);
+    navigate(`/view-item/:${id}`);
   }
 
   return (
