@@ -18,7 +18,7 @@ const ViewItemSingle = () => {
     
     itemId = itemId.substring(1)
     try {
-      const response = await fetch(`http://localhost:3001/items/get-item/:${itemId}`);
+      const response = await fetch(`https://supply-chain-backend.onrender.com/items/get-item/:${itemId}`);
       if (response.ok) {
         const data = await response.json();
         setItem(data);
