@@ -7,7 +7,7 @@ const ViewItems = () => {
   const user = JSON.parse(localStorage.getItem('user'));
   const role = user.role;
 
-  const host = 'http://localhost:3001'
+  const host = 'https://supply-chain-backend.onrender.com'
   const frontendHost = 'http://localhost:3000'
   const [items, setItems] = useState([]);
   const [selectedItem, setSelectedItem] = useState(null);
