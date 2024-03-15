@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { GrFormClose } from "react-icons/gr";
 const CreateCheckpointModal = ({ setOpenModal, onSave,itemId }) => {
 
-  const host = 'http://localhost:3001'
+  const host = 'https://supply-chain-backend.onrender.com'
 
   const user = JSON.parse(localStorage.getItem('user'));
 
