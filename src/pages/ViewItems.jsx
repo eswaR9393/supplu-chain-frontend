@@ -8,7 +8,7 @@ const ViewItems = () => {
   const role = user.role;
 
   const host = 'https://supply-chain-backend.onrender.com'
-  const frontendHost = 'http://localhost:3000'
+  const frontendHost = 'https://supplu-chain-frontend.vercel.app'
   const [items, setItems] = useState([]);
   const [selectedItem, setSelectedItem] = useState(null);
   const [showCheckpoints, setShowCheckpoints] = useState(false);
