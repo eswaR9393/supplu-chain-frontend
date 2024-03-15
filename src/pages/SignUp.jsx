@@ -3,7 +3,7 @@ import React,{useState,useContext} from 'react'
 import img from '../assets/register-bg.jpg'
 import { Link,useNavigate  } from 'react-router-dom';
 const SignUp = () => {
-    const host = "http://localhost:3001";
+    const host = "https://supply-chain-backend.onrender.com";
     const navigate = useNavigate();
 
     const [credentials,setCredentials] = useState({name:'',email:'',password:'',confirmPassword:'',role:"Manufacturer"});
