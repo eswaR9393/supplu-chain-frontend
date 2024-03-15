@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 const Login = () => {
    
     // const {host} = useContext(HostContext);
-    const host="http://localhost:3001"
+    const host="https://supply-chain-backend.onrender.com"
     
 
     const navigate = useNavigate();
